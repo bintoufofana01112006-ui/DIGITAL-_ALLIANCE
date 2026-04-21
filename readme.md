@@ -1,4 +1,4 @@
-# DevClub – Interface de Chat
+# ALLIANCE NUMERIQUE – Interface de Chat
 
 Description
 Page de tarifs (Princing Table):Un comparatif de trois forfaits (Free,Pro,Entreprise)pour un logiciel Saas
