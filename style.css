@@ -642,3 +642,15 @@ img{
 h3{
   margin-bottom: 10px;
 }
+.ajout{
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+
+}
+.tit{
+  margin: 0;
+  font-weight: bolder;
+  font-size: larger;
+  font-size: 50px;
+}
