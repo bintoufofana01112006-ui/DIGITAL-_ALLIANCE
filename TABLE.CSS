@@ -1,0 +1,87 @@
+
+fieldset{
+    background-color: rgb(255, 255, 255, 0.2);
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header" ".prop";
+    grid-template-rows: 40px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    backdrop-filter: blur(30px);
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(5, 5, 5, 0.5);
+}
+.sous .color{
+    background-color:  rgb(200, 227, 254);
+}
+.head h1, h2{
+    text-decoration: underline;
+}
+body{
+     background-color: rgb(200, 227, 254);
+}
+li:hover{
+    transform: translateY(1px);
+}
+.sous h2{
+    font-size: 20px;
+    border-left: 5px solid rgb(232, 242, 255);
+    padding-left: 10px;
+}
+.pro{
+    background: linear-gradient(70deg, rgb(255, 226, 6) 0%, rgb(0, 0, 0) 60%, rgb(0, 0, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+strong:hover{
+     text-decoration:underline;
+}
+strong{
+    transition: all 0.3s;
+}
+
+hr{
+    width: 100%;
+}
+legend{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(1, 1, 1);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);   
+    border-radius: 10px;
+    width: 70%;
+   font-family: serif;
+}
+marquee{
+    width: 100%;
+}
+header h2{
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+header h1{
+    margin-top: 22px;
+    font-size: 25px;
+}
+.prop{
+    grid-area: ".prop" ".prop";
+    width: 100%;
+}
+.prop .sous ul{
+    display:flex;
+    justify-content: start;
+    gap: 20px;
+}
+li{
+    margin: 7px 0;
+    font-size: 20px;
+    font-weight:bold;
+    list-style: none;
+    width: 300px;
+    border-left: 5px solid rgb(255, 255, 255);
+    transition:all 0.1s;
+}
